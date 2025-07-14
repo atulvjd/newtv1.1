@@ -4,9 +4,9 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from core.speech import speak
 
-CLIENT_ID = '7b1d57914c2b40bd8130c2be277cdd96'
-CLIENT_SECRET = 'b3546f6f758f4e9ba9e42d41a164e756'
-REDIRECT_URI = 'http://localhost:8888/callback'
+CLIENT_ID = '7b1d57914c2bxxxxxxxxxxxxxxxxx7cdd96'
+CLIENT_SECRET = 'b3546f6f758fxxxxxxxxxxxxxxxxxxxx'
+REDIRECT_URI = 'http://localhost:xxxx/callback'
 
 SCOPE = 'user-read-playback-state user-modify-playback-state user-read-currently-playing user-read-private user-read-email'
 CACHE = ".cache"
