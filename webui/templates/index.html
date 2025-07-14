@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Newt V1 Memory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <div class="max-w-2xl mx-auto py-10 px-6">
+        <h1 class="text-3xl font-bold mb-6">🧠 Newt V1 Memory</h1>
+
+        <form method="POST" class="mb-6 flex gap-2">
+            <input type="text" name="text" placeholder="Add memory..." required
+                   class="flex-1 px-4 py-2 border rounded shadow-sm focus:outline-none">
+            <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Add</button>
+        </form>
+
+        <div class="mb-4">
+            <a href="/clear" class="text-red-600 hover:underline">🗑️ Clear All</a>
+        </div>
+
+        <ul class="space-y-4">
+            {% for item in memory %}
+            <li class="bg-white p-4 rounded shadow flex justify-between items-center">
+                <div>
+                    <p class="font-medium">{{ item.text }}</p>
+                    <p class="text-sm text-gray-500">{{ item.timestamp }}</p>
+                </div>
+                <a href="/delete/{{ loop.index0 }}" class="text-red-500 hover:underline">Delete</a>
+            </li>
+            {% else %}
+            <li class="text-gray-500">No memory entries yet.</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

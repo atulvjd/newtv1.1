@@ -1,0 +1,51 @@
+{
+  "deep work": [
+    "open spotify",
+    "start timer"
+  ],
+  "focus mode": [
+    "mute system",
+    "open notepad",
+    "turn off wi-fi"
+  ],
+  "chill time": [
+    "open spotify",
+    "set volume to 50"
+  ],
+  "morning routine": [
+    "open brave",
+    "open gmail",
+    "play spotify",
+    "check weather"
+  ],
+  "night shutdown": [
+    "pause spotify",
+    "take screenshot",
+    "shutdown"
+  ],
+  "code mode": [
+    "open vs code",
+    "open terminal",
+    "start timer"
+  ],
+  "open work apps": [
+    "open brave",
+    "open github",
+    "open linkedin"
+  ],
+  "meeting mode": [
+    "mute system",
+    "open zoom",
+    "start timer"
+  ],
+  "reset environment": [
+    "unmute system",
+    "set volume to 70",
+    "close all apps"
+  ],
+  "study session": [
+    "open youtube",
+    "search dsa roadmap",
+    "start timer"
+  ]
+}

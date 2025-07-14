@@ -1,0 +1,30 @@
+{
+  "brave": "C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe",
+  "chrome": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "firefox": "C:/Program Files/Mozilla Firefox/firefox.exe",
+  "edge": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+
+  "spotify": "C:/Users/Atul/AppData/Roaming/Spotify/Spotify.exe",
+  "vlc": "C:/Program Files/VideoLAN/VLC/vlc.exe",
+  "windows media player": "C:/Program Files/Windows Media Player/wmplayer.exe",
+
+  "notepad": "C:/Windows/system32/notepad.exe",
+  "wordpad": "C:/Program Files/Windows NT/Accessories/wordpad.exe",
+  "paint": "C:/Windows/system32/mspaint.exe",
+
+  "vs code": "C:/Users/Atul/AppData/Local/Programs/Microsoft VS Code/Code.exe",
+  "visual studio": "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/devenv.exe",
+  "pycharm": "C:/Program Files/JetBrains/PyCharm Community Edition 2024.1.1/bin/pycharm64.exe",
+  "android studio": "C:/Program Files/Android/Android Studio/bin/studio64.exe",
+  "obs": "C:/Program Files/obs-studio/bin/64bit/obs64.exe",
+
+  "task manager": "C:/Windows/System32/Taskmgr.exe",
+  "cmd": "C:/Windows/System32/cmd.exe",
+  "powershell": "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe",
+  "registry editor": "C:/Windows/regedit.exe",
+  "control panel": "C:/Windows/System32/control.exe",
+  "system info": "C:/Windows/System32/msinfo32.exe",
+  "file explorer": "explorer.exe",
+  "settings": "ms-settings:"
+
+}
